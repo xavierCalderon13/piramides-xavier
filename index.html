@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Los Luminares de Ar-Kaon</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Raleway:wght@300;500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Raleway', sans-serif;
+      background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+      color: #f5f5f5;
+      scroll-behavior: smooth;
+    }
+    header {
+      background: rgba(0,0,0,0.6);
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-family: 'Cinzel', serif;
+      font-size: 2.5rem;
+      color: #ffd700;
+      margin: 0;
+    }
+    .section {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 1rem 2rem;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 12px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    }
+    .section h2 {
+      color: #ffd700;
+      font-family: 'Cinzel', serif;
+    }
+    .section p {
+      line-height: 1.6;
+      font-size: 1.1rem;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      color: #bbb;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Los Luminares de Ar-Kaon</h1>
+  </header>
+
+  <section class="section">
+    <h2>Un Origen Misterioso</h2>
+    <p>En el año 10,492 a.C., floreció en Egipto una civilización avanzada: los Luminares de Ar-Kaon. En un valle fértil con bosques iridiscentes y lagos flotantes, ellos dominaban la luz sólida, una energía que se moldeaba con la mente y las emociones.</p>
+  </section>
+
+  <section class="section">
+    <h2>Las Pirámides Canalizadas</h2>
+    <p>No fueron construidas, sino canalizadas. Las tres grandes pirámides eran antenas interdimensionales conectadas a Sirio, Vega y Zeta Reticuli. La Gran Pirámide estabilizaba el eje de la Tierra cada 13,000 años.</p>
+  </section>
+
+  <section class="section">
+    <h2>La Traición de los Maat-Nohr</h2>
+    <p>En el 3,212 a.C., los zafiros del tiempo fueron robados por los Maat-Nohr, saboteadores temporales. Sin ellos, las pirámides entraron en hibernación estructural, y su energía dejó de fluir.</p>
+  </section>
+
+  <section class="section">
+    <h2>El Descubrimiento de Fekete</h2>
+    <p>En 1922, el arqueólogo Alajos Fekete halló una cámara secreta bajo la Esfinge con humanoides alados y símbolos indescifrables. El hallazgo fue confiscado y Fekete desapareció misteriosamente.</p>
+  </section>
+
+  <section class="section">
+    <h2>Imágenes de las Pirámides</h2>
+    <div class="gallery">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Kheops-Pyramid.jpg" alt="Gran Pirámide de Guiza">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/c/c4/All_Gizah_Pyramids.jpg" alt="Conjunto de pirámides">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/Pyramid_of_Khafre.jpg" alt="Pirámide de Kefrén">
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>La Profecía del Cristal Central</h2>
+    <p>Se cree que las pirámides aún emiten un pulso energético cada 8 de agosto. Cuando los zafiros sean devueltos, se activará el Despertar del Cristal Central, revelando puertas hacia otros mundos.</p>
+  </section>
+
+  <footer>
+    <p>Las pirámides no son el pasado: son el futuro esperando a ser recordado.</p>
+  </footer>
+
+  <!-- Chatbot de Dialogflow -->
+  <link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/dfmessenger/prod/v1/themes/df-messenger-default.css">
+  <script src="https://www.gstatic.com/dialogflow-console/fast/dfmessenger/prod/v1/df-messenger.js"></script>
+  <df-messenger   project-id="agente1-456214"   agent-id="1a297564-ee11-4c6b-a975-920baea95f41"   language-code="en"   max-query-length="-1">
+    <df-messenger-chat-bubble chat-title="agentepiramides"></df-messenger-chat-bubble>
+  </df-messenger>
+  <style>
+    df-messenger {
+      z-index: 999;
+      position: fixed;
+      --df-messenger-font-color: #000;
+      --df-messenger-font-family: Google Sans;
+      --df-messenger-chat-background: #f3f6fc;
+      --df-messenger-message-user-background: #d3e3fd;
+      --df-messenger-message-bot-background: #fff;
+      bottom: 16px;
+      right: 16px;
+    }
+  </style>
+</body>
+</html>
